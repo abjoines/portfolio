@@ -1,10 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 
+* {
+    box-sizing: border-box;
+}
 body {
     padding: 40px;
     margin: auto;
     max-width: 1000px;
     font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-weight: 700;
+    padding-top: 20px;
+    border-bottom: 3px solid rgb(23, 175, 212);
+}
+
+h3 {
+    line-height: 1.5;
+}
+
+p {
+    font-weight: 400;
+    line-height:1.5;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    float: left;
+    flex: 50%;
+    border: 3px solid red;
+}
+
+.full{
+    display:flex;
+    padding:0px;
+    border: 3px solid yellow;
+}
+
+.contact{
+    display: flex;
+    float: right;
+    flex: 50%;
+    border: 3px solid blue;
+}
+
+.qb {
+    width: 45%;
+    height: auto;
+    padding: 20px;
 }
 
 .landing {
@@ -51,6 +101,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+li.casestudies {
+    display:inline;
 }
 
 .fullscreen-bg {
