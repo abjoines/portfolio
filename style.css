@@ -18,11 +18,13 @@
     display: flex;
     flex: 50%;
 }
+
 img.name {
     width: 100%;
     height:auto;
     padding:20px;
 }
+
 body {
     padding: 40px;
     margin: auto;
@@ -64,15 +66,7 @@ ul {
     padding: 20px;
 }
 
-.landing {
-    text-align: center;
-}
-
-li.nav {
-    display: inline;
-}
-
-.work {
+img.page {
     width: 24%;
     height: auto;
     display: inline-block;
@@ -81,8 +75,16 @@ li.nav {
     transition: opacity .25s ease-in-out;
 }
 
-img.work:hover {
+img.page:hover {
     opacity: 0.5;
+}
+
+.landing {
+    text-align: center;
+}
+
+li.nav {
+    display: inline;
 }
 
 a.home {
