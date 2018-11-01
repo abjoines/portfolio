@@ -66,6 +66,34 @@ ul {
     padding: 20px;
 }
 
+.twod {
+    width: 49%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.threed {
+    width: 32%;
+    height:auto;
+    padding:20px;
+}
+
+.five {
+    display: block;
+    width: 75%;
+    height:auto;
+    padding:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.h2o {
+    display: block;
+    width: 65%;
+    height: auto;
+    padding:20px;
+}
+
 img.page {
     width: 24%;
     height: auto;
