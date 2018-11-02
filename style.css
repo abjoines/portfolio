@@ -98,7 +98,7 @@ img.page {
     width: 24%;
     height: auto;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     opacity:1;
     transition: opacity .25s ease-in-out;
 }
