@@ -11,6 +11,27 @@
     padding: 0px;
 }
 
+.tri_column {
+    display: flex;
+    flex: 33%;
+    padding: 10px;
+    display: block;
+}
+
+video {
+    width:100%;
+    height: auto;
+}
+
+.threed_work {
+    width: 100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .work {
     display: flex;
     flex: 33.3%;
