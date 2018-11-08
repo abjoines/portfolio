@@ -11,6 +11,10 @@
     padding: 0px;
 }
 
+span {
+    color: rgb(23, 175, 212);
+}
+
 .tri_column {
     display: flex;
     flex: 55%;
@@ -61,12 +65,14 @@ video {
     display: flex;
     flex: 50%;
     padding: 20px;
+    background-color: white;
 }
 
 .contact{
     display: flex;
     flex: 50%;
     padding: 20px;
+    background-color: white;
 }
 
 img.name {
@@ -146,7 +152,7 @@ ul {
 
 .five {
     display: block;
-    width: 75%;
+    width: 65%;
     height:auto;
     padding:20px;
     margin-left:auto;
@@ -236,7 +242,13 @@ a.home:hover {
     width: 100%;
     height: auto;
 }
+.fullscreen-bg-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 
+}
 img.logo {
     width: 140px;
     display: block;
