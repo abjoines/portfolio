@@ -1,0 +1,26 @@
+#globe path {
+    fill: #ccc;
+    stroke: #fff;
+  }
+
+  path.arc {
+    pointer-events: none;
+    fill: none;
+    stroke: #000;
+    display: none;
+  }
+
+  path.cell {
+    fill: none;
+    pointer-events: all;
+  }
+
+  circle {
+    fill: deepskyblue;
+    stroke: black;
+  }
+
+  .link {
+    stroke: deepskyblue;
+
+  }

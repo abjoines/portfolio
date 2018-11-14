@@ -294,3 +294,35 @@ a.home:hover::after {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
+
+/* d3 */
+#globe path {
+    fill: #ccc;
+    stroke: #fff;
+  }
+
+  path.arc {
+    pointer-events: none;
+    fill: none;
+    stroke: #000;
+    display: none;
+  }
+
+  path.cell {
+    fill: none;
+    pointer-events: all;
+  }
+
+  circle {
+    fill: deepskyblue;
+    stroke: black;
+  }
+
+  .link {
+    stroke: deepskyblue;
+
+  }
+
+  /* div.canvas{
+    border: solid red 5px;
+  } */
