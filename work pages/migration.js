@@ -1,5 +1,5 @@
 var width = 1400,
-    height = 1000;
+    height = 1200;
 
 // Read in CSV doc
 d3.csv("top100.csv", function(error, links) {
@@ -31,7 +31,7 @@ var svg = d3.select("body").append("svg")
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(lengthen))
-    .force("charge", d3.forceManyBody().strength(-50))
+    .force("charge", d3.forceManyBody().strength(-60))
     .force("collide", d3.forceCollide().radius(30).strength(0.9))
     .force("center", d3.forceCenter(((width / 4) * 2), height / 2)); 
 
@@ -119,7 +119,7 @@ function ticked() {
     d.target.x + "," + 
     d.target.y;})
   // stroke based on difference
-  .attr("stroke-width", function(d) { return (1+((d.AbsDifference)/40000))});
+  .attr("stroke-width", function(d) { return (1+((d.AbsDifference)/35000))});
 
   node
   .attr("transform", function(d) { 

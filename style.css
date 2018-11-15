@@ -192,6 +192,7 @@ li.nav {
    margin-left:auto;
    margin-right: auto;
 }
+
 a.home {
     color:white;
     font-weight: 400;
@@ -326,3 +327,8 @@ a.home:hover::after {
   /* div.canvas{
     border: solid red 5px;
   } */
+
+  .linelink {
+    color:rgb(23, 175, 212);
+    text-decoration: none;
+}
