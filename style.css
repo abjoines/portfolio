@@ -159,11 +159,13 @@ ul {
     margin-right:auto;
 }
 
-.h2o {
+.future {
     display: block;
-    width: 65%;
+    width: 80%;
     height: auto;
     padding:20px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 img.page {
@@ -173,6 +175,15 @@ img.page {
     padding: 5px;
     opacity: 1;
     transition: opacity .25s ease-in-out;
+}
+
+.fakes {
+    display: block;
+    line-height: 2;
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+    color: rgb(23, 175, 212); 
 }
 
 img.page:hover {
